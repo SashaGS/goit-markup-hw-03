@@ -8,11 +8,15 @@ body{
 .hero-btn{
     cursor: pointer;
 }
+
+
 /* #endregion */
 
 /* #region reset */
 ul,ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -22,6 +26,17 @@ a{
 address{
     font-style: normal;
 }
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+}
+
 /* #endregion */
 
 /*#region header*/
@@ -40,6 +55,8 @@ address{
 }
 
 .nav-link{
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,7 +64,20 @@ address{
     color: #2e2f42;  
 }
 
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .contacts-link{
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -59,6 +89,35 @@ address{
 .contacts-link:focus,
 .contacts-link:hover{
     color: #404bbf;
+}
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.nav-list{
+    gap: 40px;
 }
 /*#endregion*/
 
