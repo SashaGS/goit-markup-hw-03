@@ -298,12 +298,6 @@ justify-content: center;
 flex-direction: column;
 gap: 8px;
 width: calc((100% - 24px * 2)/3);
-
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
-/* 24px */
-
 }
 
 .card-content{
@@ -312,6 +306,12 @@ border-right: 1px solid #e7e9fc;
     justify-content: center;
     flex-direction: column;
     gap: 8px;
+
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 100%; 
 }
 
 .portfolio-title {
@@ -320,6 +320,8 @@ border-right: 1px solid #e7e9fc;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;;
+    
 }
 .portfolio-direction {
     line-height: 1.5;
@@ -334,13 +336,28 @@ border-right: 1px solid #e7e9fc;
     background: #2e2f42;
 }
 
+.page-footer>.container{
+    padding-left: 156px;
+}
+
 .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    padding-top: 100px;
+    margin-bottom: 16px;
 }
-
 .logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-
-.footer-logo .logo-part{
+.logo-part {
     color: #f4f4fd;
 }
 
@@ -348,5 +365,7 @@ border-right: 1px solid #e7e9fc;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
+    padding-bottom: 100px;
 }
 /* #endregion */
