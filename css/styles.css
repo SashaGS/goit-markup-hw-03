@@ -222,8 +222,7 @@ h1,h2,h3,h4,h5,h6, p{
 .page-team {
     padding: 120px 0; 
     background: #f4f4fd;
-    /* margin-bottom: 120px; */
-
+   
 }
 
 .team-header {
@@ -239,7 +238,7 @@ h1,h2,h3,h4,h5,h6, p{
 .team-list {
     display: flex; 
     justify-content:center;  
-    /* gap:calc((100% - 72)/4);   */
+    /* gap: calc((100% - 24px * 3)/4);  */
     gap: 24px; 
 }
 
