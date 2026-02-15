@@ -166,16 +166,6 @@ h1,h2,h3,h4,h5,h6, p{
     margin-bottom: 48px;
 }
 
-/* .hero-btn {
-    font-weight: 500;
-    font-size: 16px;    
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background: #4d5ae5;
-    color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-} */
-
 .hero-btn{
     margin-left: auto;
     margin-right: auto;
@@ -221,6 +211,7 @@ h1,h2,h3,h4,h5,h6, p{
     margin-bottom: 8px;
 }
 .benefit-paragraf {
+    max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -229,25 +220,39 @@ h1,h2,h3,h4,h5,h6, p{
 
 /* #region team*/
 .page-team {
+    padding: 120px 0; 
     background: #f4f4fd;
+    /* margin-bottom: 120px; */
+
 }
 
 .team-header {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
+    text-align: center; 
     color: #2e2f42;
-    text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-list {
+    display: flex; 
+    justify-content:center;  
+    /* gap:calc((100% - 72)/4);   */
+    gap: 24px; 
 }
 
 .team-item {
     background-color: #fff;
 }
 
+.team-img{
+    margin-bottom: 32px;
+}
+
 .team-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -267,6 +272,7 @@ h1,h2,h3,h4,h5,h6, p{
 
 /* #region portfolio*/
 .portfolio {
+    padding: 120px 0;
 }
 
 .portfolio-header { 
@@ -275,12 +281,37 @@ h1,h2,h3,h4,h5,h6, p{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
 }
 
 .portfolio-item {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+width: calc((100% - 24px * 2)/3);
+
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+/* 24px */
+
+}
+
+.card-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .portfolio-title {
