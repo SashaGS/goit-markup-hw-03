@@ -151,12 +151,13 @@ h1,h2,h3,h4,h5,h6, p{
     /* flex-direction: column; */
     /* width: 1440px;
     height: 600px; */
-    padding: 188px 292px ; 
+    /* padding: 188px 292px ;  */
     background: #2e2f42;
 }
 .hero-title { 
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -176,13 +177,13 @@ h1,h2,h3,h4,h5,h6, p{
     gap: 10px;
 
     border-radius: 4px;
-    padding: 16px 32px;
+    padding: 16px 32px;  
     width: 169px;
     height: 56px;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-
+   
 }
 
 .hero-btn:hover,
@@ -338,7 +339,12 @@ width: calc((100% - 48px)/3);
     background: #2e2f42;
 }
 
-.page-footer>.container{
+.page-footer>{
+    /* padding-left: 156px; */
+}
+
+.footer-text{
+    padding-top: 100px 0; 
     padding-left: 156px;
 }
 
