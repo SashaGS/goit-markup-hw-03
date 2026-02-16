@@ -378,7 +378,7 @@ width: calc((100% - 48px)/3);
 
 .footer-text{
     max-width: 264px;
-    /* margin-right: auto; */
+    margin-right: auto;
 }
 
 .footer-nav {
