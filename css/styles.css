@@ -253,7 +253,7 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content:space-between;
     align-items: center; 
     /* gap: calc((100% - 24px * 3)/4);  */
-    /* gap: 24px; */
+    gap: 24px;
 }
 
 .team-item {
