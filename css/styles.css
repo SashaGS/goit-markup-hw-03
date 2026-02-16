@@ -22,6 +22,10 @@ img{
     padding:120px 0;
 }
 
+section {
+    padding: 120px 0;
+}
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -200,9 +204,10 @@ h1,h2,h3,h4,h5,h6,p{
 /* #endregion */
 
 /* #region benefits*/
-.page-benefit {
+/* .page-benefit {
     padding: 120px 0;
-}
+
+} */
 .benefit-list {
     display: flex;
     justify-content: center;
@@ -229,7 +234,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* #region team*/
 .page-team {
-    padding: 120px 0; 
+    /* padding: 120px 0;  */
     background: #f4f4fd;
 }
 
@@ -245,9 +250,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 .team-list {
     display: flex; 
-    justify-content:center; align-items: center; 
+    justify-content:space-between;
+    align-items: center; 
     /* gap: calc((100% - 24px * 3)/4);  */
-    gap: 24px;
+    /* gap: 24px; */
 }
 
 .team-item {
@@ -305,9 +311,9 @@ h1,h2,h3,h4,h5,h6,p{
 /* #endregion */
 
 /* #region portfolio*/
-.portfolio {
+/* .portfolio {
     padding: 120px 0;
-}
+} */
 
 .portfolio-header { 
     font-size: 36px;
